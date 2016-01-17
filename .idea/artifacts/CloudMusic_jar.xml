@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CloudMusic:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CloudMusic_jar</output-path>
+    <root id="archive" name="CloudMusic.jar">
+      <element id="module-output" name="CloudMusic" />
+      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/javafx-mx.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
