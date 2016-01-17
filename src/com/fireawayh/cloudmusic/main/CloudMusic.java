@@ -1,10 +1,12 @@
+package com.fireawayh.cloudmusic.main;
+
 import com.fireawayh.cloudmusic.utils.DownloadUtils;
 import com.fireawayh.cloudmusic.utils.GUIUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Main{
+public class CloudMusic {
 
     private static DownloadUtils du = new DownloadUtils();
     private static GUIUtils gu = new GUIUtils();
@@ -17,7 +19,7 @@ public class Main{
 
 
         // 4 download
-        ArrayList<String> argsList = new ArrayList<String>(Arrays.asList(args));
+        ArrayList<String> argsList = new ArrayList<>(Arrays.asList(args));
 ////        argsList.add("-port");
 ////        argsList.add("1080");
 ////        argsList.add("-proxy");
