@@ -5,11 +5,24 @@ import com.fireawayh.cloudmusic.utils.GUIUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CloudMusic {
 
     private static DownloadUtils du = new DownloadUtils();
     private static GUIUtils gu = new GUIUtils();
+
+
+//    static String loadStream(InputStream in) throws IOException {
+//        int ptr = 0;
+//        in = new BufferedInputStream(in);
+//        StringBuffer buffer = new StringBuffer();
+//        while ((ptr = in.read()) != -1) {
+//            buffer.append((char) ptr);
+//        }
+//        return buffer.toString();
+//    }
 
     public static void main(String[] args) {
         // 1 getJson http://music.163.com/song?id=29561031
@@ -18,8 +31,24 @@ public class CloudMusic {
 //        showHelp();
 
 
+
+//        String cmd = "ls";
+//        try {
+//            Process ps = Runtime.getRuntime().exec(cmd);
+//            System.out.print(loadStream(ps.getInputStream()));
+//            System.err.print(loadStream(ps.getErrorStream()));
+//        } catch(IOException ioe) {
+//            ioe.printStackTrace();
+//        }
+//
+//        System.exit(0);
         // 4 download
         ArrayList<String> argsList = new ArrayList<>(Arrays.asList(args));
+
+        if(argsList.isEmpty()){
+            test();
+        }
+
 ////        argsList.add("-port");
 ////        argsList.add("1080");
 ////        argsList.add("-proxy");
@@ -59,7 +88,9 @@ public class CloudMusic {
 //        }catch(Exception e){
 //            e.printStackTrace();
 //        }
-//        System.exit(0);
+
+
+        System.exit(0);
 
 
         du.setArgs(argsList);
@@ -90,5 +121,14 @@ public class CloudMusic {
         gu.printAscii("/ASCII_IMG/Rin.txt");
     }
 
+    private static void test(){
+//        du.downloadSongByList();
+        Pattern p = Pattern.compile("/([0-9]*.mp3)");
+        Matcher matcher = p.matcher("http://m2.music.126.net/8G7S9OVVCvhzNGJeZDIm-A==/5938462302083815.mp3");
+        if (matcher.find()) {
+            String oldFileName = matcher.group(1);
+            System.out.print(oldFileName);
+        }
+    }
 
 }

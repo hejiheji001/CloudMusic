@@ -7,10 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d92d0eae-9b4d-416b-a467-c7af333a5093" name="Default" comment="Change Structure">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CloudMusic.jar" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/CloudMusic_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/main/CloudMusic.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CloudMusic_jar/CloudMusic.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CloudMusic/Main.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/ApiUtils.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/ApiUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/CookieUtils.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/CookieUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/DownloadUtils.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/DownloadUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$1.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$2.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$3.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$4$1.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$4.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/GUIUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/JsonUtils.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/JsonUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/Logger.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/Logger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/MusicUtils.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/MusicUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/Test.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/URIUtils.class" afterPath="$PROJECT_DIR$/out/production/CloudMusic/com/fireawayh/cloudmusic/utils/URIUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CloudMusic.iml" afterPath="$PROJECT_DIR$/CloudMusic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CloudMusic/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/production/CloudMusic/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/main/CloudMusic.java" afterPath="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/main/CloudMusic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/DownloadUtils.java" afterPath="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/DownloadUtils.java" />
     </list>
     <ignored path="CloudMusic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,13 +55,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CloudMusic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CloudMusic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/main/CloudMusic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33167082">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="53" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#169#170#0" expanded="false" />
+                <element signature="e#208#209#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownloadUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/DownloadUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+              <folding>
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URIUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/URIUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MusicUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/MusicUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <folding>
+                <element signature="e#1423#1424#0" expanded="false" />
+                <element signature="e#1465#1466#0" expanded="false" />
+                <element signature="e#1500#1501#0" expanded="false" />
+                <element signature="e#1537#1538#0" expanded="false" />
+                <element signature="e#1569#1570#0" expanded="false" />
+                <element signature="e#1598#1599#0" expanded="false" />
+                <element signature="e#1632#1633#0" expanded="false" />
+                <element signature="e#1663#1664#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -49,8 +128,10 @@
         <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/ApiUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding />
+              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,7 +141,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,8 +152,10 @@
         <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/JsonUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="38" />
-              <folding />
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +164,18 @@
         <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/GUIUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
-              <folding />
+              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#502#503#0" expanded="false" />
+                <element signature="e#525#526#0" expanded="false" />
+                <element signature="e#562#563#0" expanded="false" />
+                <element signature="e#594#595#0" expanded="false" />
+                <element signature="e#622#623#0" expanded="false" />
+                <element signature="e#654#655#0" expanded="false" />
+                <element signature="e#2373#2374#0" expanded="false" />
+                <element signature="e#2435#2436#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,15 +205,16 @@
         <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/Logger.java" />
         <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/URIUtils.java" />
         <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/GUIUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/MusicUtils.java" />
         <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/Test.java" />
         <option value="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/src.zip!/java/lang/String.java" />
         <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/CookieUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/DownloadUtils.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/MusicUtils.java" />
+        <option value="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/javafx-mx.jar!/com/oracle/javafx/jmx/json/JSONFactory.class" />
         <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/main/CloudMusic.java" />
+        <option value="$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/DownloadUtils.java" />
       </list>
     </option>
   </component>
@@ -135,10 +231,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="267" />
-    <option name="y" value="23" />
-    <option name="width" value="1099" />
-    <option name="height" value="741" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -178,7 +272,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -196,103 +290,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloudmusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CloudMusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloudmusic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -321,7 +318,46 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CloudMusic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,12 +369,16 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/javafx-mx.jar!/" />
     <property name="dynamic.classpath" value="false" />
     <property name="SearchEverywhereHistoryKey" value="import&#9;ACTION&#9;OptimizeImports" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -760,29 +800,48 @@
       <workItem from="1452994182561" duration="6000" />
       <workItem from="1452994211627" duration="2384000" />
       <workItem from="1453000627892" duration="3000" />
-      <workItem from="1453054574174" duration="590000" />
+      <workItem from="1453054574174" duration="12199000" />
+      <workItem from="1453481014526" duration="15000" />
+      <workItem from="1453855187348" duration="273000" />
+      <workItem from="1453856413060" duration="1321000" />
+      <workItem from="1453915803280" duration="377000" />
     </task>
+    <task id="LOCAL-00001" summary="Change Structure">
+      <created>1453055180771</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1453055180771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90185000" />
+    <option name="totallyTimeSpent" value="103780000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="267" y="23" width="1099" height="741" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31139648" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3110119" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.375" sideWeight="0.5030211" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2573321" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24320242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -792,9 +851,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22792937" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41733548" sideWeight="0.49697885" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4398074" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -846,8 +906,20 @@
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/MusicUtils.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/URIUtils.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -856,10 +928,21 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/src.zip!/java/security/MessageDigestSpi.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/GUIUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#2373#2374#0" expanded="false" />
+            <element signature="e#2435#2436#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -867,7 +950,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -876,7 +961,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -885,7 +970,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#2373#2374#0" expanded="false" />
+            <element signature="e#2435#2436#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,7 +988,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -908,7 +1006,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -917,7 +1017,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -926,7 +1026,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#2373#2374#0" expanded="false" />
+            <element signature="e#2435#2436#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -934,7 +1044,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -949,7 +1062,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -958,7 +1073,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -967,7 +1082,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#2373#2374#0" expanded="false" />
+            <element signature="e#2435#2436#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,7 +1100,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -990,7 +1118,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,7 +1129,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1016,7 +1146,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1033,7 +1163,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1050,7 +1180,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1146,20 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/javafx-mx.jar!/com/oracle/javafx/jmx/json/JSONFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36236933">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30279502">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.331565">
@@ -1174,20 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/MusicUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/URIUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1195,35 +1297,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/CookieUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/DownloadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5798318">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/GUIUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="148" column="29" selection-start-line="148" selection-start-column="29" selection-end-line="148" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,24 +1311,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="94" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="94" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/GUIUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#2373#2374#0" expanded="false" />
+            <element signature="e#2435#2436#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/javafx-mx.jar!/com/oracle/javafx/jmx/json/JSONFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30612245">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/MusicUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#1423#1424#0" expanded="false" />
+            <element signature="e#1465#1466#0" expanded="false" />
+            <element signature="e#1500#1501#0" expanded="false" />
+            <element signature="e#1537#1538#0" expanded="false" />
+            <element signature="e#1569#1570#0" expanded="false" />
+            <element signature="e#1598#1599#0" expanded="false" />
+            <element signature="e#1632#1633#0" expanded="false" />
+            <element signature="e#1663#1664#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/URIUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/main/CloudMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#169#170#0" expanded="false" />
+            <element signature="e#208#209#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/ApiUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/main/CloudMusic.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fireawayh/cloudmusic/utils/DownloadUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33167082">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1260,10 +1425,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="jpa-descriptors" />
-              <type id="library" />
               <type id="artifact" />
               <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
             </show-content>
           </artifact-editor>
           <last-edited>CloudMusic:jar</last-edited>
@@ -1307,7 +1472,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25" />
               </list>
             </option>
           </splitter-proportions>
@@ -1328,7 +1493,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>javafx-mx</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

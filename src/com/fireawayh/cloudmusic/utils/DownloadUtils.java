@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by FireAwayH on 15/10/6.
+ * by FireAwayH on 15/10/6.
  */
 public class DownloadUtils {
 
@@ -50,6 +50,7 @@ public class DownloadUtils {
         String result = "";
         String playListId = null;
         String filePath = null;
+
         if(args.contains("-playlist")) {
             int i = args.indexOf("-playlist");
             playListId = args.get(i + 1).toString().toUpperCase();
@@ -61,6 +62,11 @@ public class DownloadUtils {
             filePath = args.get(j + 1).toString().toUpperCase();
         }else{
             result = "No path id found";
+        }
+
+        if(args.isEmpty()){
+            playListId = "41370921";
+            filePath =  "/Users/FireAwayH/Desktop/";
         }
 
         if(!playListId.isEmpty() && !filePath.isEmpty()){
@@ -78,16 +84,14 @@ public class DownloadUtils {
     public String stringConvert(String str) {
         try {
             String fileEncode = System.getProperty("file.encoding");
-            String result = new String(str.getBytes("UTF-8"), fileEncode);
-            return result;
+            return new String(str.getBytes("UTF-8"), fileEncode);
         }catch (Exception e){
             return "?";
         }
     }
 
     public String downloadSongById(String songId, String filePath){
-        int bytesum = 0;
-        int byteread = 0;
+        int byteread;
         this.filePath = filePath;
 
         try {
@@ -125,7 +129,6 @@ public class DownloadUtils {
             String totalSize = mu.getTotalSize();
             log.print("Total:" + totalSize);
             while ((byteread = inStream.read(buffer)) != -1) {
-                bytesum += byteread;
                 fs.write(buffer, 0, byteread);
 //                log.print("Finished:" + bytesum + "/" + totalSize + " " + getProgress(bytesum, totalSize));
             }
@@ -152,8 +155,9 @@ public class DownloadUtils {
     }
 
     public String getProgress(int sum, String total){
-        double dSum = Double.valueOf(sum);
-        double dTotal = Double.valueOf(total);
+        double dSum = (double) sum;
+        double dTotal;
+        dTotal = Double.valueOf(total);
         double dProgress = dSum / dTotal * 100.0;
         return String.format("%.2f%s", dProgress, "%");
     }

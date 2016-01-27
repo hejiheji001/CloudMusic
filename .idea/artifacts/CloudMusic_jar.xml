@@ -1,15 +1,9 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="CloudMusic:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/CloudMusic_jar</output-path>
+    <output-path>$PROJECT_DIR$</output-path>
     <root id="archive" name="CloudMusic.jar">
       <element id="module-output" name="CloudMusic" />
-      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/dt.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/tools.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/sa-jdi.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/jconsole.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/javafx-mx.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/ant-javafx.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/javafx-doclet.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/javafx-mx.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
