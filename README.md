@@ -20,9 +20,9 @@
 
 -proxy <host>: Use <host> as proxy, default = 210.26.85.241
 
-(If you are outside China, you must define a Chinese proxy. Default value maybe not working.)
+>>(If you are outside China, you must define a Chinese proxy. Default value maybe not working.)
 
-PS: Some proxies could be found here http://pachong.org/ but I do not have any relation with that site.
+>>PS: Some proxies could be found here http://pachong.org/ but I do not have any relation with that site.
 
 -port <port>: Use <port> for proxy, default = 80
 
