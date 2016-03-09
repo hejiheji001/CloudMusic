@@ -6,7 +6,7 @@ import java.net.URLConnection;
 import java.util.List;
 
 /**
- * Created by FireAwayH on 15/11/10.
+ * By FireAwayH on 15/11/10.
  */
 public class URIUtils {
     public InputStream getFromURI(String URI){

@@ -5,7 +5,7 @@ import sun.misc.BASE64Encoder;
 import java.security.MessageDigest;
 
 /**
- * Created by FireAwayH on 15/10/6.
+ * Created by FireAwayH on 15/10/6. XD
  */
 public class ApiUtils {
     public ApiUtils(){
@@ -30,11 +30,9 @@ public class ApiUtils {
                 song_id[i] = (byte) (song_id[i]^magic[i%magic_len]);
             }
 
-            byte[] test = song_id;//[05,81,90,08,31,16,13,18,00,29,07,92,05,82,27,02]
-
             MessageDigest md5 = MessageDigest.getInstance("MD5");
             md5.reset();
-            md5.update(test);
+            md5.update(song_id);
 
 //            for(byte x : test){
 //                System.out.println(x);
@@ -59,16 +57,15 @@ public class ApiUtils {
             result = result.replace('/', '_');
             result = result.replace('+', '-');
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
 
         return result;
     }
 
-    private String[] getSongIds(String playListId){
-        String[] songIdArr = null;
-        return songIdArr;
-    }
-
+//    private String[] getSongIds(String playListId){
+//        String[] songIdArr = null;
+//        return songIdArr;
+//    }
 
 }

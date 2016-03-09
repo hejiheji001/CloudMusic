@@ -1,7 +1,7 @@
 package com.fireawayh.cloudmusic.utils;
 
 /**
- * Created by FireAwayH on 15/11/10.
+ * By FireAwayH on 15/11/10.
  */
 public class Logger {
     public Logger(){

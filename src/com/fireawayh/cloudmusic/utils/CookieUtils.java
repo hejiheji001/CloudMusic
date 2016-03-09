@@ -7,7 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * Created by FireAwayH on 15/01/2016.
+ * Created by FireAwayH on 15/01/2016. XD
  */
 public class CookieUtils {
 
@@ -31,12 +31,12 @@ public class CookieUtils {
         InputStreamReader in = new InputStreamReader((InputStream) con.getContent());
         BufferedReader buff = new BufferedReader(in);
 
-        StringBuffer text = new StringBuffer();
+        StringBuilder text = new StringBuilder();
 
         String line;
         do {
             line = buff.readLine();
-            text.append(line + "\n");
+            text.append(line).append("\n");
         } while (line != null);
 
 
@@ -45,8 +45,6 @@ public class CookieUtils {
             String xx = text.toString().split("bdstoken=")[1];
             String token = xx.substring(1,33);
             System.out.println(token);
-        }else{
-
         }
 
 

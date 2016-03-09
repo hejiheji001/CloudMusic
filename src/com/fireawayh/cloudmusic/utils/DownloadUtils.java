@@ -20,13 +20,13 @@ public class DownloadUtils {
     private Logger log = new Logger();
     private List args = null;
 
-    public String getFilePath() {
-        return filePath;
-    }
+//    public String getFilePath() {
+//        return filePath;
+//    }
 
-    public void setFilePath(String filePath) {
-        this.filePath = filePath;
-    }
+//    public void setFilePath(String filePath) {
+//        this.filePath = filePath;
+//    }
 
     private String filePath = "";
 
@@ -42,9 +42,9 @@ public class DownloadUtils {
         this.args = args;
     }
 
-    public List getArgs(){
-        return this.args;
-    }
+//    public List getArgs(){
+//        return this.args;
+//    }
 
     public String downloadSongByList(){
         String result = "";
@@ -69,11 +69,11 @@ public class DownloadUtils {
             filePath =  "/Users/FireAwayH/Desktop/";
         }
 
-        if(!playListId.isEmpty() && !filePath.isEmpty()){
+        if (filePath != null && playListId != null && !playListId.isEmpty() && !filePath.isEmpty()) {
             ArrayList<String> songIds = ju.getPlayListSongs(playListId);
             filePath += songIds.get(songIds.size() - 1);
             log.print("Files will be saved to " + stringConvert(filePath));
-            for (int i = 0; i < songIds.size() - 1; i++){
+            for (int i = 0; i < songIds.size() - 1; i++) {
                 downloadSongById(songIds.get(i), filePath);
             }
             log.print("All mission done!");
@@ -140,12 +140,11 @@ public class DownloadUtils {
         }
     }
 
-    // TODO: consider to use thread
-    public void doloadSongByIds(String[] songIdArr, String filePath){
-        for (String songId : songIdArr){
-            downloadSongById(songId, filePath);
-        }
-    }
+//    public void doloadSongByIds(String[] songIdArr, String filePath){
+//        for (String songId : songIdArr){
+//            downloadSongById(songId, filePath);
+//        }
+//    }
 
     public String checkIP(){
         String url = "http://ipinfo.io/json";
@@ -154,11 +153,11 @@ public class DownloadUtils {
         return ip.getString("country");
     }
 
-    public String getProgress(int sum, String total){
-        double dSum = (double) sum;
-        double dTotal;
-        dTotal = Double.valueOf(total);
-        double dProgress = dSum / dTotal * 100.0;
-        return String.format("%.2f%s", dProgress, "%");
-    }
+//    public String getProgress(int sum, String total){
+//        double dSum = (double) sum;
+//        double dTotal;
+//        dTotal = Double.valueOf(total);
+//        double dProgress = dSum / dTotal * 100.0;
+//        return String.format("%.2f%s", dProgress, "%");
+//    }
 }
