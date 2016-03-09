@@ -19,6 +19,7 @@
 #Options
 
 -proxy <host>: Use <host> as proxy, default = 210.26.85.241
+
 (If you are outside China, you must define a Chinese proxy. Default value maybe not working)
 
 -port <port>: Use <port> for proxy, default = 80
