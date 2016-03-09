@@ -12,10 +12,6 @@
 
 ##java -jar CloudMusic.jar <id> <path> [options]
 
-##-h Show help
-
-##-gui Open GUI
-
 #Options
 
 -proxy <host>: Use <host> as proxy, default = 210.26.85.241
@@ -31,3 +27,9 @@
 -playlist: Download all songs in a list!
 
 -path <path>: Set save path, if you use -playlist then you must set path
+
+#Other Args
+
+-h Show help
+
+-gui Open GUI
