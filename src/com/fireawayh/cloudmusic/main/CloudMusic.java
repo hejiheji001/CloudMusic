@@ -43,11 +43,19 @@ public class CloudMusic {
 //
 //        System.exit(0);
         // 4 download
-        ArrayList<String> argsList = new ArrayList<>(Arrays.asList(args));
 
+//        Object o = new Object();
+//        System.out.print(o);
+
+        ArrayList<String> argsList = new ArrayList<>(Arrays.asList(args));
+//
         if(argsList.isEmpty()){
-            test();
+            //test();
+            showHelp();
+            System.exit(0);
         }
+//
+//        System.out.print(argsList);
 
 ////        argsList.add("-port");
 ////        argsList.add("1080");
@@ -90,7 +98,7 @@ public class CloudMusic {
 //        }
 
 
-        System.exit(0);
+//        System.exit(0);
 
 
         du.setArgs(argsList);
