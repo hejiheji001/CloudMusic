@@ -13,8 +13,8 @@ public class ApiUtils {
     }
     
 
-    public  String getDownloadUrl(String bestMusicId){
-        return "http://m2.music.126.net/" + getEncryptedId(bestMusicId) + "/"+ bestMusicId + ".mp3";
+    public  String getDownloadUrl(String bestMusicId, String ext){
+        return "http://m2.music.126.net/" + getEncryptedId(bestMusicId) + "/"+ bestMusicId + "." + ext;
     }
 
     public  String getEncryptedId(String bestMusicId){

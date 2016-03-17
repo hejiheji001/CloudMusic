@@ -100,11 +100,12 @@ public class DownloadUtils {
             String artistName = mu.getArtist();
             String songName = mu.getSongName();
             String bestMusicId = music.get("dfsId").toString();
+            String ext = music.get("extension").toString();
 
-            String fileName = artistName + " - " + songName  + "." + music.get("extension");
+            String fileName = artistName + " - " + songName  + "." + ext;
             String newFileName = stringConvert(fileName);
 
-            String durl = au.getDownloadUrl(bestMusicId);
+            String durl = au.getDownloadUrl(bestMusicId, ext);
             String ipAddr = checkIP();
 
             log.print("Current task is ——> " + newFileName);
