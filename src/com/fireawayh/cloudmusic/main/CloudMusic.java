@@ -2,6 +2,7 @@ package com.fireawayh.cloudmusic.main;
 
 import com.fireawayh.cloudmusic.utils.DownloadUtils;
 import com.fireawayh.cloudmusic.utils.GUIUtils;
+import com.fireawayh.cloudmusic.utils.JsonUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -46,7 +47,8 @@ public class CloudMusic {
 
 //        Object o = new Object();
 //        System.out.print(o);
-
+        JsonUtils j = new JsonUtils();
+        j.getAlbumBestMusic("3190899");
         ArrayList<String> argsList = new ArrayList<>(Arrays.asList(args));
 //
         if(argsList.isEmpty()){

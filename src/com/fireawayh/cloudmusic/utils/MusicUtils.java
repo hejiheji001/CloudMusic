@@ -12,6 +12,7 @@ public class MusicUtils extends JsonUtils {
     private static JSONDocument mMusic;
     private static JSONDocument lMusic;
     private static JSONDocument audition;
+    private static JSONDocument bMusic;
     private static String artist, songName;
     private String totalSize;
     private Logger log = new Logger();
@@ -22,6 +23,7 @@ public class MusicUtils extends JsonUtils {
         hMusic = getChildNodeByName(songs, "hMusic");
         mMusic = getChildNodeByName(songs, "mMusic");
         lMusic = getChildNodeByName(songs, "lMusic");
+        bMusic = getChildNodeByName(songs, "bMusic");
         audition = getChildNodeByName(songs, "audition");
         artist = getChildNodeByName(songs, "artists").object().get("name").toString();
         songName = songs.object().get("name").toString();
@@ -39,6 +41,9 @@ public class MusicUtils extends JsonUtils {
         }else if(lMusic != null){
             log.print("Download lMusic");
             result = lMusic;
+        }else if(bMusic != null) {
+            log.print("Download bMusic");
+            result = bMusic;
         }else if(audition != null) {
             log.print("Download audition");
             result = audition;
