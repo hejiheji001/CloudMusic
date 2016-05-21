@@ -18,7 +18,7 @@ public class MusicUtils extends JsonUtils {
     private Logger log = new Logger();
 
     public MusicUtils(String songId){
-        JSONDocument jd = createJSONByURL("http://music.163.com/api/song/detail?ids=[" + songId + "]");
+        JSONDocument jd = getMusicById(songId);
         JSONDocument songs = getChildNodeByName(jd, "songs");
         hMusic = getChildNodeByName(songs, "hMusic");
         mMusic = getChildNodeByName(songs, "mMusic");

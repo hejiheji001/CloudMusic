@@ -6,6 +6,7 @@ import com.fireawayh.cloudmusic.utils.JsonUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -48,7 +49,16 @@ public class CloudMusic {
 //        Object o = new Object();
 //        System.out.print(o);
         JsonUtils j = new JsonUtils();
-        j.getAlbumBestMusic("3190899");
+//        j.getAlbumBestMusic();
+        List l = j.getPlayListBestMusic("112133199");
+
+
+//        ApiUtils au = new ApiUtils();
+//        MusicUtils mu = new MusicUtils("29572501");
+//        Map music = mu.getBestMusic().object();
+//        String bestMusicId = music.get("dfsId").toString();
+//        String durl = au.getDownloadUrl(bestMusicId, "mp3");
+
         ArrayList<String> argsList = new ArrayList<>(Arrays.asList(args));
 //
         if(argsList.isEmpty()){

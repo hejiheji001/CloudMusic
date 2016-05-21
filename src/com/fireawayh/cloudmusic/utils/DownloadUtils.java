@@ -5,7 +5,6 @@ import com.oracle.javafx.jmx.json.JSONDocument;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -70,13 +69,13 @@ public class DownloadUtils {
         }
 
         if (filePath != null && playListId != null && !playListId.isEmpty() && !filePath.isEmpty()) {
-            ArrayList<String> songIds = ju.getPlayListSongs(playListId);
-            filePath += songIds.get(songIds.size() - 1);
-            log.print("Files will be saved to " + stringConvert(filePath));
-            for (int i = 0; i < songIds.size() - 1; i++) {
-                downloadSongById(songIds.get(i), filePath);
-            }
-            log.print("All mission done!");
+//            ArrayList<String> songIds = ju.getPlayListSongs(playListId);
+//            filePath += songIds.get(songIds.size() - 1);
+//            log.print("Files will be saved to " + stringConvert(filePath));
+//            for (int i = 0; i < songIds.size() - 1; i++) {
+//                downloadSongById(songIds.get(i), filePath);
+//            }
+//            log.print("All mission done!");
         }
         return result;
     }
