@@ -3,7 +3,6 @@
     <output-path>$PROJECT_DIR$</output-path>
     <root id="archive" name="CloudMusic.jar">
       <element id="module-output" name="CloudMusic" />
-      <element id="extracted-dir" path="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/lib/javafx-mx.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

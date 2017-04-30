@@ -76,10 +76,38 @@ public class JsonUtils {
         return child;
     }
 
+    private JSONDocument getResponse(String link) {
+        HttpGet get = new HttpGet(link);
+        CloseableHttpClient c = this.getClient();
+        HttpResponse response = null;
+        JSONDocument json = null;
+
+        try {
+            response = c.execute(get);
+            String content = EntityUtils.toString(response.getEntity());
+            json = JSONFactory.instance().makeReader(new StringReader(content)).build();
+        } catch (Exception var15) {
+            var15.printStackTrace();
+        } finally {
+            try {
+                EntityUtils.consume(response != null?response.getEntity():null);
+            } catch (Exception var14) {
+                var14.printStackTrace();
+            }
+
+        }
+
+        return json;
+    }
+
     private JSONDocument getPlayListJson(String playListId){
         InputStream playListInStream = uu.getFromURI("http://music.163.com/api/playlist/detail?id=" + playListId);
         JSONDocument playListJson = JSONFactory.instance().makeReader(new InputStreamReader(playListInStream)).build();
         return playListJson;
+    }
+
+    private JSONDocument getArtistJson(String albumID) {
+        return this.getResponse(String.format("http://music.163.com/api/artist/%s", new Object[]{albumID}));
     }
 
     public JSONDocument getMusicById(String songId){
@@ -101,6 +129,22 @@ public class JsonUtils {
             }
         }
         return musicJson;
+    }
+
+    public List<Map<String, Object>> getArtistBestMusic(String artistID) {
+        List<Object> jsonList = new ArrayList();
+        JSONDocument artistJson = this.getArtistJson(artistID);
+        JSONDocument resultJson = this.getChildNodeByName(artistJson, "artist");
+        JSONDocument tracksJson = this.getChildNodesByName(artistJson, "hotSongs");
+        if(tracksJson.isArray()) {
+            jsonList = tracksJson.array();
+        } else if(tracksJson.isObject()) {
+            ;
+        }
+
+        String title = resultJson.getString("name");
+        List<Map<String, Object>> tracks = this.batchHandler((List)jsonList, title);
+        return tracks;
     }
 
     public List<Map<String, Object>> getPlayListBestMusic(String playListId){
